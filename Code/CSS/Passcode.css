@@ -1,0 +1,23 @@
+/*Buttons for Numbers Buttons */
+button {
+    color: #979797;
+}
+ /* Div for Submit Buttons under numbers */
+.submission-btn {
+	text-align:center;
+	padding: 25px;
+    color:#979797;
+    background-color:#004364;
+     }
+
+.btn-main  a {
+    color:#414141;
+	text-decoration: none;
+	}
+
+/*Style for All Rows of Buttons */
+.Row-One, .Row-Two, .Row-Three, .Row-Four {
+    text-align: center;
+}
+
+

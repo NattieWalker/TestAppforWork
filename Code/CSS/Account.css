@@ -1,0 +1,22 @@
+/*Chart Styles */
+
+#free-space {
+   margin:auto;
+    width: 50%;
+
+}
+
+.free-space-chart{
+    width:100%;
+    border:hidden;
+}
+
+/*Button Styles */
+.pin-btn {
+    margin:auto;
+    width: 50%;
+}
+.btn-main a {
+    color:#979797;
+    text-decoration:none;
+}

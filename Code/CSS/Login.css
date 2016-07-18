@@ -1,0 +1,20 @@
+﻿/*Log In Window Styles */
+
+fieldset{
+	margin:auto;
+	text-align:center;
+	padding:20px;
+	width: 80%;
+	}
+
+.submit {
+	padding: 5px;
+}
+
+.submit  a {
+	text-decoration: none;
+	}
+
+input {
+	margin:5px;
+	}

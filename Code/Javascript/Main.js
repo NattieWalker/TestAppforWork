@@ -1,0 +1,1 @@
+var noFooter = Document.getElementById("copyright");

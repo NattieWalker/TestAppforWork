@@ -1,0 +1,73 @@
+/* Whole Body Styles */
+#main {
+	margin: auto;
+	border: 2px black solid;
+	height:100%;
+	width: 90%;
+	background-color: #004364;
+    font-family: Arial, Verdana, Helvetica,sans-serif;
+    height:600px;
+}
+
+/*Navigation sytles (All Navs)*/
+
+nav {
+	margin: auto;
+	text-align:center;
+    background-color:#414141;
+    padding: 10px;
+    } 
+nav > ul >li{
+	display:inline;
+	padding: 20px;
+     }
+
+li a{
+	text-decoration:none; 
+     color: #979797;
+   }
+
+/*header Styles (All Headers)*/
+h1 {
+	text-align:center;
+	padding: 5px;
+    color: #FFF;
+    font-family: Arial, Verdana, Helvetica,sans-serif;
+}
+
+/*Button Sytles (All Main Buttons)*/
+.button {
+	text-align:center;
+	margin: auto;
+	padding: 20px;
+        }
+.btn-main {
+	padding:20px;
+	margin:20px;
+    background-color: #414141;
+    border: 1px solid #414141;
+    border-radius: 10px;
+    text-align: center;
+	}
+
+.btn-half{
+	width:70%;
+	margin: auto;
+    color:#979797;
+}
+
+.btn-half a{
+    text-decoration: none;
+    color:#979797;
+}
+
+/*Footer Styles */
+#copyright {
+    text-align:center;
+    color:#FFF;
+    background-color:#414141;
+    font-family: Arial, Verdana, Helvetica,sans-serif;
+    height: 20px;   
+
+}
+

@@ -1,0 +1,30 @@
+/*Styles for Photo Container */
+.photos {
+    width: 80%;
+    margin:auto;
+    border: 1px solid black;
+}
+ /*Styles for Photos */
+.photo-block {
+    width: 30%;
+    height: 100px;
+    float:left;
+    border: 1px dashed black;
+    margin: 5px;
+  
+}
+
+.gallery-btn {
+    padding: 15px;
+    color:#979797;
+    background-color: #414141;
+    border:1px solid #004364;
+}
+
+.take-pic-btn {
+    padding: 15px;
+    color:#979797;
+    background-color: #414141;
+    border:1px solid #004364;
+    float:right;
+}
