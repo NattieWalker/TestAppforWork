@@ -1,17 +1,15 @@
 /*Styles for Photo Container */
-.photos {
-    width: 80%;
+#photos {
+    width: 90%;
     margin:auto;
     border: 1px solid black;
 }
  /*Styles for Photos */
-.photo-block {
+.photo-block img{
     width: 30%;
-    height: 100px;
-    float:left;
-    border: 1px dashed black;
+    height: 30%;
     margin: 5px;
-  
+    float:left;
 }
 
 .gallery-btn {
@@ -19,6 +17,7 @@
     color:#979797;
     background-color: #414141;
     border:1px solid #004364;
+    border-radius: 10px;
 }
 
 .take-pic-btn {
@@ -27,4 +26,5 @@
     background-color: #414141;
     border:1px solid #004364;
     float:right;
+    border-radius: 10px;
 }

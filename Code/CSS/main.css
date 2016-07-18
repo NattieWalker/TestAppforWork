@@ -2,11 +2,9 @@
 #main {
 	margin: auto;
 	border: 2px black solid;
-	height:100%;
 	width: 90%;
 	background-color: #004364;
     font-family: Arial, Verdana, Helvetica,sans-serif;
-    height:600px;
 }
 
 /*Navigation sytles (All Navs)*/
@@ -62,12 +60,14 @@ h1 {
 }
 
 /*Footer Styles */
-#copyright {
+footer {
     text-align:center;
     color:#FFF;
     background-color:#414141;
     font-family: Arial, Verdana, Helvetica,sans-serif;
-    height: 20px;   
-
+    height: 20px;  
+    position: relative;
+    bottom: 0px;
+    margin-top: 50px;
 }
 
