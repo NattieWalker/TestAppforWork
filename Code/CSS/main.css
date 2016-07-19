@@ -3,6 +3,7 @@
 	margin: auto;
 	border: 2px black solid;
 	width: 90%;
+    height:100%;
 	background-color: #004364;
     font-family: Arial, Verdana, Helvetica,sans-serif;
 }
@@ -28,7 +29,7 @@ li a{
 /*header Styles (All Headers)*/
 h1 {
 	text-align:center;
-	padding: 5px;
+	padding: 10px;
     color: #FFF;
     font-family: Arial, Verdana, Helvetica,sans-serif;
 }
