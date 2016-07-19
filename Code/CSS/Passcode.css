@@ -20,4 +20,10 @@ button {
     text-align: center;
 }
 
+/* PassWord Field styles*/
+#password {
+   height: 80px;
+    width:60%;
+    margin:auto;
+}
 
