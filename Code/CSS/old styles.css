@@ -1,0 +1,54 @@
+/*Button Sytles (All Main Buttons)*/
+.button {
+	text-align:center;
+	margin: auto;
+	padding: 20px;
+        }
+.btn-main {
+	padding:20px;
+	margin:20px;
+    background-color: #414141;
+    border: 1px solid #414141;
+    border-radius: 10px;
+    text-align: center;
+	}
+
+.btn-half{
+	width:70%;
+	margin: auto;
+    color:#979797;
+}
+
+.btn-half a{
+    text-decoration: none;
+    color:#979797;
+}
+
+
+/* #Body Div Styles */
+
+#file-tree { 
+    width:20%;
+    height:700px;
+    float: left;
+    background-color: #979797;
+}
+
+#folder-icons {
+    width:80%;
+    height:700px;
+    float:left;
+    background-color: #FFF;
+    
+}
+
+/* Nav Li */
+nav > ul >li{
+	display:inline;
+	padding: 20px;
+     }
+
+li a{
+	text-decoration:none; 
+     color: #979797;
+   }
