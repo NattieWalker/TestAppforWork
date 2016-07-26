@@ -4,49 +4,28 @@
 	<title>Template for Application</title>
 	<link rel="stylesheet" href="../CSS/Reset.css">
 <link rel="stylesheet" type="text/css" href="../CSS/main.css" />
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
 <div id="main">
    <header>
- <nav> 
-     <div class ="search-tools">
-<form method="get" action="/search" id="search">
-  <input name="q" type="text" size="40" placeholder="Search..." />
-</form>
-</div>
-  
-   </nav>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+      <div class = "row">
+    <ul>
+        <li>Test</li>
+        <li>Test 2</li>
+    </ul>
+  </div>
+  </div>
+</nav>
    </header>
-<h1>File Manager</h1>
+    <h1 class = "app-name">File Manager</h1>
 <div id ="file-tree">
     <div class = "folder-list">
     <ul>
         <li class = "main-folder"> One</li>
-            <ul class= "nested-list">
-                <li>Test</li>
-                <li>Test</li>
-            </ul>
-        <li class = "main-folder">Two</li>
-            <ul class= "nested-list">
-                <li>Test</li>
-                <li>Test</li>
-            </ul>
-        <li class = "main-folder">Three</li>
-            <ul class= "nested-list">
-                <li>Test</li>
-                <li>Test</li>
-            </ul>
-        <li class = "main-folder">Four</li>
-            <ul class= "nested-list">
-                <li>Test</li>
-                <li>Test</li>
-            </ul>
-        <li class = "main-folder">Five</li>
-            <ul class= "nested-list">
-                <li>Test</li>
-                <li>Test</li>
-            </ul>
-        <li class = "main-folder">Six</li>
             <ul class= "nested-list">
                 <li>Test</li>
                 <li>Test</li>
@@ -60,20 +39,32 @@
 <section>
 <div id ="folders">
     <div class = "folder-col">
-    <a href = "#" class = "folder-icon"><img src ="../../images/folder-icon.png"></a>
-     <a href = "#"  class= "folder-icon"><img src ="../../images/folder-icon.png"></a>
-     <a href = "#" class= "folder-icon"><img src ="../../images/folder-icon.png"></a>
-    </a>
-    </div></a>
-    <div class = "folder-col"></a>
-    <a href = "#" class = "folder-icon"><img src ="../../images/folder-icon.png"></a>
-    <a href = "#" class= "folder-icon"><img src ="../../images/folder-icon.png"></a>
-     <a href = "#" class= "folder-icon"><img src ="../../images/folder-icon.png"></a>
-    </div></a>
-    <div class = "folder-col"></a>
-    <a href = "#" class = "folder-icon"><img src ="../../images/folder-icon.png"></a>
-    <a href = "#" class= "folder-icon"><img src ="../../images/folder-icon.png"></a>
-     <a href = "#" class= "folder-icon"><img src ="../../images/folder-icon.png"></a>
+        <div class="row">
+            <div class="col-xs-6 col-md-4 col-lg-3" >
+                 <a href="#">
+                     <img src="../../images/folder-icon.png" alt="Folder Image">
+                    </a>
+                    <a href="#">
+                     <img src="../../images/folder-icon.png" alt="Folder Image">
+                    </a>
+                    <a href="#">
+                     <img src="../../images/folder-icon.png" alt="Folder Image">
+                    </a>
+            </div>
+        </div>
+         <div class="row">
+            <div class="col-xs-6 col-md-3">
+                 <a href="#">
+                     <img src="../../images/folder-icon.png" alt="Folder Image">
+                    </a>
+                    <a href="#">
+                     <img src="../../images/folder-icon.png" alt="Folder Image">
+                    </a>
+                    <a href="#">
+                     <img src="../../images/folder-icon.png" alt="Folder Image">
+                    </a>
+            </div>
+        </div>
     </div>
     
 </div>
