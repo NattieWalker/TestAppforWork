@@ -5,51 +5,28 @@
     font-family: Arial, Verdana, Helvetica,sans-serif;
     border: 1px solid black;
     background-color: #414141;
+    padding-top: 70px;
 }
 /*Navigation sytles (All Navs)*/
 
 nav {
-	margin: auto;
-	text-align:center;
     background-color:#414141;
     padding: 10px;
     } 
-
+ nav ul {
+     display:inline;
+ }
 /*h1... Styles (All Headers)*/
-h1 {
+.app-name {
 	text-align: center;
 	padding: 10px;
-    color: #FFF;
-    font-family: Arial, Verdana, Helvetica,sans-serif;
     font-size: 1.5em;
+    color: #FFF;
 }
 /*Search Bar */
 
-#search input[type="text"] {
-    background: url(search-dark.png) no-repeat 10px 6px #444;
-    border: 0 none;
-    font: bold 12px Arial,Helvetica,Sans-serif;
-    color: #777;
-    width: 150px;
-    padding: 6px 15px 6px 35px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
-    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
-    -webkit-transition: all 0.7s ease 0s;
-    -moz-transition: all 0.7s ease 0s;
-    -o-transition: all 0.7s ease 0s;
-    transition: all 0.7s ease 0s;
-    float:right;
-    clear: both;
-    }
 
-#search input[type="text"]:focus {
-    width: 200px;
-    }
+
 
     /*File list styles */
 /* main Div */
@@ -63,42 +40,23 @@ h1 {
 /*div containing lists */
 .folder-list {
     margin:auto;
-    width: 90%;
-    list-style: square inside;
-    
-}
-.nested-list {
-    color:blue;
-    text-indent: 20px;
-    background-color: darkcyan;
+    width: 90%;   
 }
 
 .main-folder {
-    color: peachpuff;
+   color: royalblue;
+}
 
+.nested-list{
+    text-indent: 20px;
 }
-/* Folder icon section SYstles */
-#folders {
-    width:80%;
-    height:700px;
-    float:left;
-    background-color: #FFF;
-}
+/* Folder List section SYstles */
 .folder-col {
+    width:80%;
     float:left;
-    width: 30%;
-    margin: 10px;
-    height: 300px;
-}
-.folder-icon {
-    border: 1px dotted #979797;
-    display: flex;
-    flex-direction:row;
-    flex: 1;
-}
-
-img {
-    position:center;
+    height:700px;
+    background-color:#FFF;
+    color:green;
 }
 
 
