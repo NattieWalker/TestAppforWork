@@ -57,7 +57,7 @@ h1 {
     width:20%;
     height:700px;
     float: left;
-    background-color: #979797;
+    background-color: #004364;;
     }
 
 /*div containing lists */
@@ -68,15 +68,37 @@ h1 {
     
 }
 .nested-list {
-    color:blue;
+    color: #979797;
     text-indent: 20px;
-    background-color: darkcyan;
 }
 
 .main-folder {
-    color: peachpuff;
-
+    color: #FFF;
 }
+
+/*Sub List */
+ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin:2px;
+}
+
+
+ul a {
+    text-decoration:none;
+}
+
+/* Main List */
+ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+ol a {
+    text-decoration:none;
+}
+
+
 /* Folder icon section SYstles */
 #folders {
     width:80%;
@@ -97,10 +119,21 @@ h1 {
     flex: 1;
 }
 
+/* Img = FOlder Icon Styles */ 
 img {
     position:center;
+    height: 100px;
+    width:100px;
+    margin:auto;
 }
 
+.caption {
+    font-style: italic;
+    color:#979797;
+    text-align:center;
+    margin:3px;
+
+}
 
 /*Footer Styles */
 footer {
@@ -110,6 +143,20 @@ footer {
     font-family: Arial, Verdana, Helvetica,sans-serif;  
 }
 
+footer span {
+    font-style: italic;
+}
+footer a {
+    text-decoration:none;
+    color: #FFF;
+}
 
 
-
+/* Link styles */
+a {
+    color:#FFF;
+    font-family: Verdana;
+    font-size: 16px;
+    text-justify:auto; 
+    line-height: 150%;
+}
