@@ -15,6 +15,15 @@ nav {
     padding: 10px;
     } 
 
+.back-btn {
+    float:right;
+    color: #919191;
+    background-color: #444;
+    border: 1px solid #919191;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
 /*h1... Styles (All Headers)*/
 h1 {
 	text-align: center;
@@ -28,6 +37,8 @@ h1 {
 #search input[type="text"] {
     background: url(search-dark.png) no-repeat 10px 6px #444;
     border: 0 none;
+    float: right;
+    margin: 10px;
     font: bold 12px Arial,Helvetica,Sans-serif;
     color: #777;
     width: 150px;
@@ -43,8 +54,6 @@ h1 {
     -moz-transition: all 0.7s ease 0s;
     -o-transition: all 0.7s ease 0s;
     transition: all 0.7s ease 0s;
-    float:right;
-    clear: both;
     }
 
 #search input[type="text"]:focus {
