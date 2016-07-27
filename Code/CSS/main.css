@@ -36,11 +36,11 @@ h1 {
 
 #search input[type="text"] {
     background: url(search-dark.png) no-repeat 10px 6px #444;
-    border: 0 none;
+    border: 1px solid #919191;
     float: right;
     margin: 10px;
     font: bold 12px Arial,Helvetica,Sans-serif;
-    color: #777;
+    color: #919191;
     width: 150px;
     padding: 6px 15px 6px 35px;
     -webkit-border-radius: 20px;
