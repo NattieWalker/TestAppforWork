@@ -1,49 +1,82 @@
 <!<!DOCTYPE>
 <html>
     <head><title>Template Three</title>
-    <link rel="stylesheet" type="text/css" href="../CSS/main.css">
+          <link rel="stylesheet" type="text/css" href="../CSS/main.css">
+          <!-- Latest compiled and minified CSS -->
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     </head>
-<body>
-<header>
-  <i class="material-icons icon-menu">menu</i>
-  <h1>Files</h1>
-  <span></span>
-  <i class="material-icons">add</i>
-  <i class="material-icons">more_vert</i>
-</header>
-
-<main>
-  <div class="folder">
-    <i class="material-icons">folder
-      <p class="cooltip">0 folders / 0 files</p>
-    </i>
-    <h1>Folder Name</h1>
-  </div>
-  
-  <div class="folder">
-    <i class="material-icons">folder
-      <p class="cooltip">0 folders / 0 files</p>
-    </i>
-    <h1>Documents</h1>
-    <!--<div class="properties">
-      <img src="http://blogs.archives.gov/prologue/wp-content/uploads/Virgil.jpg" alt="" />
-      <h1>Documents</h1>
-      <p>Folder Path<p>C:/Users/Username/Files/Documents</p></p>
-      
-    </div>-->
-  </div>
-  <div class="folder">
-    <i class="material-icons">folder
-      <p class="cooltip">0 folders / 0 files</p>
-    </i>
-    <h1>Music</h1>
-  </div>
-  <div class="folder">
-    <i class="material-icons">folder
-      <p class="cooltip">0 folders / 0 files</p>
-    </i>
-    <h1>Photos</h1>
-  </div>
-</main>
+  <body>
+  <header>
+      <nav>
+         <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+         <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </nav>
+  </header>
+<div class="col-md-12 col-xs-12" style="margin-top:20px;"> 
+  <table class="table table-bordered table-hover table-striped table-foldersystem">
+    <thead>
+         <tr>
+          <th COLSPAN="4">
+              <h3 class = "table-title">TABLE TITLE</h3>
+          </th>
+         </tr>
+      <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Size</th>
+        <th>Last Modified</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><i class="glyphicon glyphicon-folder-open"></i></td>
+        <td>Images</td>
+        <td>4 MB</td>
+        <td>10.02.2015 11:22:54</td>
+      </tr>
+      <tr>
+        <td><i class="glyphicon glyphicon-folder-open"></i></td>
+        <td>CSS</td>
+        <td>1 MB</td>
+        <td>11.02.2015 10:02:23</td>
+      </tr>
+      <tr>
+        <td><i class="glyphicon glyphicon-folder-open"></i></td>
+        <td>Plugins</td>
+        <td>12 MB</td>
+        <td>01.02.2015 09:02:23</td>
+      </tr>
+      <tr>
+        <td><i class="glyphicon glyphicon-folder-open"></i></td>
+        <td>JS</td>
+        <td>4 MB</td>
+        <td>15.02.2015 22:33:12</td>
+      </tr>
+       <tr>
+        <td><i class="glyphicon glyphicon-picture"></i></td>
+        <td>logo.jpg</td>
+        <td>1 MB</td>
+        <td>01.02.2015 15:12:34</td>
+      </tr>
+      <tr>
+        <td><i class="glyphicon glyphicon-film"></i></td>
+        <td>teaser.mp4</td>
+        <td>141 MB</td>
+        <td>22.09.2014 09:09:12</td>
+      </tr>
+      <tr>
+        <td><i class="glyphicon glyphicon-file"></i></td>
+        <td>index.php</td>
+        <td>0.1 MB</td>
+        <td>22.09.2014 09:11:56</td>
+      </tr>
+    </tbody>
+    </table>
+</div>
+<footer> <span class = "copyright">Copyright of Ruhnau Ruhnau Clarke &copy; 2016</span></footer>
 </body>
 </html>
