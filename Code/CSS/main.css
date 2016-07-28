@@ -2,8 +2,12 @@
 #main {
 	margin: auto;
 	border: 2px black solid;
-	width: 90%;
-    height:100%;
+	position:fixed !important;
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
 	background-color: #004364;
     font-family: Arial, Verdana, Helvetica,sans-serif;
 }
@@ -11,38 +15,38 @@
 /*Navigation sytles (All Navs)*/
 
 nav {
-	margin: auto;
-	text-align:center;
+	  margin: auto;
+	  text-align:center;
     background-color:#414141;
     padding: 10px;
     } 
 nav > ul >li{
-	display:inline;
-	padding: 20px;
+  	display:inline;
+  	padding: 20px;
      }
 
 li a{
-	text-decoration:none; 
+	  text-decoration:none; 
      color: #979797;
    }
 
 /*header Styles (All Headers)*/
 h1 {
-	text-align:center;
-	padding: 10px;
+  	text-align:center;
+	  padding: 10px;
     color: #FFF;
     font-family: Arial, Verdana, Helvetica,sans-serif;
 }
 
 /*Button Sytles (All Main Buttons)*/
 .button {
-	text-align:center;
-	margin: auto;
-	padding: 20px;
+	  text-align:center;
+	  margin: auto;
+	  padding: 20px;
         }
 .btn-main {
-	padding:20px;
-	margin:20px;
+	  padding:20px;
+	  margin:20px;
     background-color: #414141;
     border: 1px solid #414141;
     border-radius: 10px;
@@ -50,8 +54,8 @@ h1 {
 	}
 
 .btn-half{
-	width:70%;
-	margin: auto;
+	  width:70%;
+	  margin: auto;
     color:#979797;
 }
 
@@ -66,9 +70,15 @@ footer {
     color:#FFF;
     background-color:#414141;
     font-family: Arial, Verdana, Helvetica,sans-serif;
-    height: 20px;  
-    position: relative;
+     /*position: relative;
     bottom: 0px;
-    margin-top: 50px;
+    margin-top: 50px; */
+    position:fixed !important;
+    position:absolute;
+    bottom:0;
+    height: 20px;  
+    width: 100%;
+    
+    
 }
 
