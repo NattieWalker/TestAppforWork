@@ -2,7 +2,7 @@
 #main {
 	margin: auto;
 	width: 90%;
-    font-family: Arial, Verdana, Helvetica,sans-serif;
+    font-family: Roboto Mono, Arial, Verdana, Helvetica,sans-serif;
     border: 1px solid black;
     background-color: #414141;
 }
@@ -29,7 +29,7 @@ h1 {
 	text-align: center;
 	padding: 10px;
     color: #FFF;
-    font-family: Arial, Verdana, Helvetica,sans-serif;
+    font-family: Roboto Mono, Arial, Verdana, Helvetica,sans-serif;
     font-size: 1.5em;
 }
 /*Search Bar */
@@ -39,7 +39,7 @@ h1 {
     border: 1px solid #919191;
     float: right;
     margin: 10px;
-    font: bold 12px Arial,Helvetica,Sans-serif;
+    font: bold 12px Roboto Mono, Arial,Helvetica,Sans-serif;
     color: #919191;
     width: 150px;
     padding: 6px 15px 6px 35px;
@@ -149,7 +149,7 @@ footer {
     text-align:center;
     color:#FFF;
     background-color:#414141;
-    font-family: Arial, Verdana, Helvetica,sans-serif;  
+    font-family: Roboto Mono, Arial, Verdana, Helvetica,sans-serif;  
 }
 
 footer span {
