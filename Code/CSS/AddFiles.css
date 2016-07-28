@@ -17,6 +17,10 @@ h2 {
     float:left;
 }
 
+.photo-btn-submit{
+    width: 30%;
+    margin: 0 auto; 
+}
 .gallery-btn {
     padding: 15px;
     color:#979797;
@@ -30,7 +34,6 @@ h2 {
     color:#979797;
     background-color: #414141;
     border:1px solid #004364;
-    float:right;
-    clear:both;
     border-radius: 10px;
 }
+

@@ -9,7 +9,7 @@
   bottom:0;
   left:0;
 	background-color: #004364;
-    font-family: Arial, Verdana, Helvetica,sans-serif;
+    font-family: Comfortaa, Arial, Verdana, Helvetica,sans-serif;
 }
 
 /*Navigation sytles (All Navs)*/
@@ -35,7 +35,7 @@ h1 {
   	text-align:center;
 	  padding: 10px;
     color: #FFF;
-    font-family: Arial, Verdana, Helvetica,sans-serif;
+    font-family: Comfortaa, Arial, Verdana, Helvetica,sans-serif;
 }
 
 /*Button Sytles (All Main Buttons)*/
@@ -69,7 +69,7 @@ footer {
     text-align:center;
     color:#FFF;
     background-color:#414141;
-    font-family: Arial, Verdana, Helvetica,sans-serif;
+    font-family: Comfortaa, Arial, Verdana, Helvetica,sans-serif;
      /*position: relative;
     bottom: 0px;
     margin-top: 50px; */
@@ -77,8 +77,6 @@ footer {
     position:absolute;
     bottom:0;
     height: 20px;  
-    width: 100%;
-    
-    
+    width: 100%;     
 }
 
