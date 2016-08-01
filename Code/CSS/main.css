@@ -66,6 +66,7 @@ footer {
     color:#FFF;
     background-color:#414141;
 <<<<<<< HEAD
+<<<<<<< HEAD
     font-family: Comfortaa, Arial, Verdana, Helvetica,sans-serif;
      /*position: relative;
     bottom: 0px;
@@ -75,6 +76,13 @@ footer {
     bottom:0;
     height: 20px;  
     width: 100%;     
+=======
+    font-family: Arial, Verdana, Helvetica,sans-serif;
+    height: 20px;  
+    position: relative;
+    bottom: 0px;
+    margin-top: 50px;
+>>>>>>> parent of 67371df... Set main body to fill window. Fixed foot to bottom
 =======
     font-family: Arial, Verdana, Helvetica,sans-serif;
     height: 20px;  
