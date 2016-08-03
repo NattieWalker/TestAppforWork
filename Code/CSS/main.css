@@ -2,12 +2,8 @@
 #main {
 	margin: auto;
 	border: 2px black solid;
-	position:fixed !important;
-  position:absolute;
-  top:0;
-  right:0;
-  bottom:0;
-  left:0;
+	width: 90%;
+    height:100%;
 	background-color: #004364;
     font-family: Comfortaa, Arial, Verdana, Helvetica,sans-serif;
 }
@@ -15,38 +11,38 @@
 /*Navigation sytles (All Navs)*/
 
 nav {
-	  margin: auto;
-	  text-align:center;
+	margin: auto;
+	text-align:center;
     background-color:#414141;
     padding: 10px;
     } 
 nav > ul >li{
-  	display:inline;
-  	padding: 20px;
+	display:inline;
+	padding: 20px;
      }
 
 li a{
-	  text-decoration:none; 
+	text-decoration:none; 
      color: #979797;
    }
 
 /*header Styles (All Headers)*/
 h1 {
-  	text-align:center;
-	  padding: 10px;
+	text-align:center;
+	padding: 10px;
     color: #FFF;
     font-family: Comfortaa, Arial, Verdana, Helvetica,sans-serif;
 }
 
 /*Button Sytles (All Main Buttons)*/
 .button {
-	  text-align:center;
-	  margin: auto;
-	  padding: 20px;
+	text-align:center;
+	margin: auto;
+	padding: 20px;
         }
 .btn-main {
-	  padding:20px;
-	  margin:20px;
+	padding:20px;
+	margin:20px;
     background-color: #414141;
     border: 1px solid #414141;
     border-radius: 10px;
@@ -54,8 +50,8 @@ h1 {
 	}
 
 .btn-half{
-	  width:70%;
-	  margin: auto;
+	width:70%;
+	margin: auto;
     color:#979797;
 }
 
@@ -69,6 +65,7 @@ footer {
     text-align:center;
     color:#FFF;
     background-color:#414141;
+<<<<<<< HEAD
     font-family: Comfortaa, Arial, Verdana, Helvetica,sans-serif;
      /*position: relative;
     bottom: 0px;
@@ -78,5 +75,12 @@ footer {
     bottom:0;
     height: 20px;  
     width: 100%;     
+=======
+    font-family: Arial, Verdana, Helvetica,sans-serif;
+    height: 20px;  
+    position: relative;
+    bottom: 0px;
+    margin-top: 50px;
+>>>>>>> parent of 67371df... Set main body to fill window. Fixed foot to bottom
 }
 
